@@ -2,7 +2,7 @@ RSpec.describe 'A cup of coffee' do
 
   class Coffee
     def price
-      30
+      30 + ingredients.size * 15
     end
 
     def ingredients
